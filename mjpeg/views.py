@@ -2,6 +2,7 @@ from django.views.generic import TemplateView
 from django.http import HttpResponse, StreamingHttpResponse
 from mysite.picam import MJpegStreamCam
 import time
+import mjpeg.sensors
 
 mjpegstream = MJpegStreamCam()
 
