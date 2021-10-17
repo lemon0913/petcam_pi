@@ -40,8 +40,8 @@ def upload_snapshot():
 
 pir.when_motion = upload_snapshot
 
-while true:
-    pir.when_motion:
+# while true:
+#     pir.when_motion:
     
 
 pause()
