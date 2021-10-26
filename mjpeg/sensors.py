@@ -24,8 +24,8 @@ def send_talk(message):
             # "mobile_web_url": "http://192.168.0.50:8000/mjpeg?mode=stream",
             # "web_url": "http://www.google.com/",
             # "mobile_web_url": "http://www.google.com/",
-            "web_url": "http://192.168.0.69:8080/",
-            "mobile_web_url": "http://192.168.0.69:8080/",
+            "web_url": "http://192.168.219.150:8080/",
+            "mobile_web_url": "http://192.168.219.150:8080/",
             }
             },
 

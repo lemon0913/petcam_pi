@@ -5,7 +5,7 @@ import json
 import requests
 from django.contrib import messages
 
-client_id = "1e1aacf67e7c105eb3c711777196000d"
+client_id = "8e81dc17f5b57e2758df0f202ce099de"
 
 class KakaoLoginView(TemplateView):
     template_name = "kakao_login.html"
@@ -32,7 +32,7 @@ class KakaoAuthView(TemplateView):
         url = "https://kauth.kakao.com/oauth/token"
         payload = "grant_type=authorization_code"
         payload += "&client_id=" + client_id
-        payload += "&redirect_url=http://192.168.0.50:8000/kakao/oauth&code=" + code
+        payload += "&redirect_url=http://192.168.219.111:8000/kakao/oauth&code=" + code
         headers = {
             'Content-Type': "application/x-www-form-urlencoded",
             'Cache-Control': "no-cache",
